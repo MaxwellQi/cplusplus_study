@@ -105,9 +105,17 @@ int main()
 	printf("a=%d,b=%d\n",a,b);
 */
 
+/*
 	int a[5] = {23,1,23,43,2};
 	int maxValue =	getMaxArrayElement(a,sizeof(a)/sizeof(int)); 
 	printf("maxValue=%d\n",maxValue);
+*/
+
+	char buf[10] = {"abcdef"};
+	char *pc = buf;
+	printf("%c\n",*(pc + 3));
+
+
 	return 0;
 	
 	
